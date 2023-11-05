@@ -6,6 +6,7 @@ require_relative '../liste'
 
 module CyberMots
   module ILC
+    # Liste les mots d'une langue donnée ou donne la correspondance entre deux langues
     class Liste < Défaut
       usage do
         command 'liste'

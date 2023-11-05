@@ -6,8 +6,9 @@ Gem::Specification.new do |s|
   s.name          = 'cybermots'
   s.version       = CyberMots::VERSION
   s.platform      = Gem::Platform::RUBY
-  s.summary       = 'YAKA'
-  s.description   = 'YAKA'
+  s.summary       = 'ILC pour CyberMots'
+  s.description   = 'CyberMots est le dictionnaire francophone de la cybersécurité ; cet outil en ligne de commande '
+  s.description += 'permet de chercher et lister des traductions disponibles sur le site'
   s.authors       = ['Alexandre ZANNI']
   s.email         = 'alexandre.zanni@europe.com'
   s.homepage      = 'https://idlfac.github.io/CyberMots-ILC/'

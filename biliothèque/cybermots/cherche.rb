@@ -4,6 +4,7 @@
 require 'json'
 
 module CyberMots
+  # Cherche un mot pour donner sa traduction
   class Cherche
     # Cherche un mot (insensible à la case) français pour donner sa traduction en anglais
     # @param [String] mot mot français à rechercher

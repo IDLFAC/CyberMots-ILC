@@ -6,6 +6,7 @@ require_relative '../maj'
 
 module CyberMots
   module ILC
+    # Mise à jour des données
     class Maj < Défaut
       usage do
         command 'maj'

@@ -4,6 +4,7 @@
 require 'json'
 
 module CyberMots
+  # Liste les mots d'une langue donnée ou donne la correspondance entre deux langues
   class Liste
     # Liste les mots français dans l'ordre alphabétique
     # @return [Array<String>] mots

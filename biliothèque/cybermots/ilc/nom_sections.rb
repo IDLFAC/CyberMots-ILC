@@ -4,7 +4,9 @@
 # https://github.com/piotrmurach/tty-option/issues/11
 module TTY
   module Option
+    # correction de singe
     class Formatter
+      # correction de singe
       def initialize(parameters, usage, param_display: DEFAULT_PARAM_DISPLAY,
                      width: DEFAULT_WIDTH, order: DEFAULT_ORDER, indent: 0)
         @parameters = parameters

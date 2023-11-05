@@ -9,13 +9,14 @@ require_relative 'cherche'
 module CyberMots
   # Module utilisé pour créer l'ILC de l'exécutable
   module ILC
+    # Commande racine, aiguille vers les autres commandes
     class Commandes
       include TTY::Option
 
       usage do
         no_command
         program 'cybermots'
-        desc 'YAKA une description'
+        desc 'ILC pour CyberMots'
       end
 
       flag :aide do

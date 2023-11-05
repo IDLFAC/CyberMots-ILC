@@ -6,6 +6,7 @@ require_relative '../cherche'
 
 module CyberMots
   module ILC
+    # Cherche un mot pour donner sa traduction
     class Cherche < Défaut
       usage do
         command 'cherche'

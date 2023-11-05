@@ -6,6 +6,7 @@ require 'cybermots/version'
 module CyberMots
   # Module utilisé pour créer l'ILC de l'exécutable
   module ILC
+    # Commande par défaut pour faire hériter des propriétés
     class Défaut
       include TTY::Option
 
