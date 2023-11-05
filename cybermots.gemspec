@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
     'yard.run' => 'yard',
     'bug_tracker_uri' => 'https://github.com/IDLFAC/CyberMots-ILC/issues',
     'changelog_uri' => 'https://github.com/IDLFAC/CyberMots-ILC/blob/maitresse/JOURNAL-DES-MODIFICATIONS.md',
-    'documentation_uri' => 'https://www.rubydoc.info/gems/cybermots',
+    'documentation_uri' => 'https://www.rubydoc.info/github/IDLFAC/CyberMots-ILC',
     'homepage_uri' => s.homepage,
     'source_code_uri' => 'https://github.com/IDLFAC/CyberMots-ILC/',
     'rubygems_mfa_required' => 'true'

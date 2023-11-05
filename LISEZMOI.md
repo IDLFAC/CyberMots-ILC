@@ -44,7 +44,7 @@ Dépendances optionnelles :
 
 ## Documentation
 
-Documentation : https://www.rubydoc.info/gems/cybermots
+Documentation : https://www.rubydoc.info/github/IDLFAC/CyberMots-ILC
 
 ## Auteur
 
