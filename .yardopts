@@ -1,0 +1,8 @@
+biliothèque/**/*.rb
+--protected
+--private
+--charset utf-8
+-
+--main LISEZMOI.md
+LICENCE.txt
+JOURNAL-DES-MODIFICATIONS.md

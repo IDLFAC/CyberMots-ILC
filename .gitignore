@@ -1,4 +1,8 @@
+# Yard
 .yardoc
+doc
+# Gemme
 pkg
-données/mots.json
 *.gem
+# Données
+données/mots.json
