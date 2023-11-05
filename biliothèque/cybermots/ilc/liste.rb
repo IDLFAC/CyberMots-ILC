@@ -20,8 +20,8 @@ module CyberMots
 
       def lance
         if params[:lang]
-          # send avoid a case switch for each value and is safe because there is a whitelist for the argument with
-          # permit
+          # send évite un case switch pour chaque valeur et est sûr car il y a une liste blanche pour la valeur de
+          # l'argument avec la commande permit
           CyberMots::Liste.send(params[:lang]).each do |mot|
             puts mot
           end

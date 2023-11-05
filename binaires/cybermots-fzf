@@ -2,7 +2,8 @@
 # frozen_string_literal: true
 
 require 'cybermots/ilc/ilc'
+require 'cybermots/ilc/fzf'
 
-ilc = CyberMots::ILC::Commandes.new
+ilc = CyberMots::ILC::Fzf.new
 ilc.parse(ARGV)
 ilc.lance

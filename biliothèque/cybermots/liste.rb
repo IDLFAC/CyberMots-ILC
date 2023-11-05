@@ -2,6 +2,7 @@
 
 # Dépendances natives
 require 'json'
+require_relative '../cybermots'
 
 module CyberMots
   # Liste les mots d'une langue donnée ou donne la correspondance entre deux langues
