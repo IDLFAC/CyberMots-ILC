@@ -5,6 +5,14 @@ AllCops:
   TargetRubyVersion: 3.0
   NewCops: enable
   SuggestExtensions: false
+# ~~~ Metrics ~~~
+Metrics/AbcSize:
+  Enabled: false
+Metrics/MethodLength:
+    Max: 30
+Metrics/ParameterLists:
+  Exclude:
+    - 'biliothèque/cybermots/ilc/nom_sections.rb'
 # ~~~ Naming ~~~
 # Utilisation d'Unicode dans les noms de méthode
 Naming/AsciiIdentifiers:
