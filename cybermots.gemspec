@@ -22,15 +22,15 @@ Gem::Specification.new do |s|
   s.metadata = {
     'yard.run' => 'yard',
     'bug_tracker_uri' => 'https://github.com/IDLFAC/CyberMots-ILC/issues',
-    'changelog_uri' => 'https://github.com/IDLFAC/CyberMots-ILC/blob/master/docs/CHANGELOG.md',
-    'documentation_uri' => 'https://idlfac.github.io/CyberMots-ILC/',
-    'homepage_uri' => 'https://idlfac.github.io/CyberMots-ILC/',
+    'changelog_uri' => 'https://github.com/IDLFAC/CyberMots-ILC/blob/master/JOURNAL-DES-MODIFICATIONS.md',
+    'documentation_uri' => 'https://www.rubydoc.info/gems/cybermots',
+    'homepage_uri' => s.homepage,
     'source_code_uri' => 'https://github.com/IDLFAC/CyberMots-ILC/',
     'rubygems_mfa_required' => 'true'
   }
 
   s.required_ruby_version = ['>= 3.0.0', '< 4.0']
 
-  s.add_runtime_dependency('docopt', '~> 0.6')
-  s.add_runtime_dependency('paint', '~> 2.2')
+  s.add_runtime_dependency('tty-option', '~> 0.3.0')
+  s.add_runtime_dependency('tty-screen', '~> 0.8.1')
 end

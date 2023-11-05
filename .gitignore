@@ -1,3 +1,4 @@
 .yardoc
 pkg
 données/mots.json
+*.gem
