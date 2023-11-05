@@ -4,6 +4,7 @@ require 'tty/option'
 require_relative '../version'
 require_relative 'maj'
 require_relative 'liste'
+require_relative 'cherche'
 
 module CyberMots
   # Module utilisé pour créer l'ILC de l'exécutable
@@ -38,6 +39,8 @@ module CyberMots
                         [Maj.new, ARGV[1..]]
                       when 'liste'
                         [Liste.new, ARGV[1..]]
+                      when 'cherche'
+                        [Cherche.new, ARGV[1..]]
                       end
 
           if cmd.nil?
@@ -48,8 +51,9 @@ module CyberMots
                 sections.add_after :description, :commandes, <<~COMMANDES.chomp
 
                   Commandes :
-                    #{Maj.command.first}   : #{Maj.desc.first.first}
-                    #{Liste.command.first} : #{Liste.desc.first.first}
+                    #{Cherche.command.first} : #{Cherche.desc.first.first}
+                    #{Liste.command.first}   : #{Liste.desc.first.first}
+                    #{Maj.command.first}     : #{Maj.desc.first.first}
                 COMMANDES
               end
               print h

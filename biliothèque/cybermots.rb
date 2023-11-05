@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'cybermots/cherche'
 require 'cybermots/liste'
 require 'cybermots/maj'
 require 'cybermots/version'
