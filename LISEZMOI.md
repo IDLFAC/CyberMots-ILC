@@ -34,8 +34,8 @@ Commandes :
 $ gem install cybermots
 ```
 
-![Gemme](https://img.shields.io/gem/v/cybermots?label=gemme)
-![étiquette git](https://img.shields.io/github/tag/IDLFAC/CyberMots-ILC?label=étiquette)
+[![Gemme](https://img.shields.io/gem/v/cybermots?label=gemme)](https://rubygems.org/gems/cybermots)
+[![étiquette git](https://img.shields.io/github/tag/IDLFAC/CyberMots-ILC?label=étiquette)](https://github.com/IDLFAC/CyberMots-ILC/tags)
 
 Dépendances optionnelles :
 
