@@ -5,7 +5,6 @@ require_relative 'défaut'
 require_relative '../maj'
 
 module CyberMots
-  # Module utilisé pour créer l'ILC de l'exécutable
   module ILC
     class Maj < Défaut
       usage do

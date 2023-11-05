@@ -40,9 +40,9 @@ module CyberMots
           when :en
             mots << mot[:anglais]
           when :fren
-            mots << "#{mot[:classe]} #{mot[:français]} : #{mot[:anglais]}"
+            mots << "#{mot[:français]} [#{mot[:classe]}] : #{mot[:anglais]}"
           when :enfr
-            mots << "#{mot[:anglais]} : #{mot[:classe]} #{mot[:français]}"
+            mots << "#{mot[:anglais]} : #{mot[:français]} [#{mot[:classe]}]"
           end
         end
         mots.sort { |a, b| a.downcase <=> b.downcase }

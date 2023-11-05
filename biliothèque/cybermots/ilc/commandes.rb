@@ -3,8 +3,10 @@
 require 'tty/option'
 require_relative '../version'
 require_relative 'maj'
+require_relative 'liste'
 
 module CyberMots
+  # Module utilisé pour créer l'ILC de l'exécutable
   module ILC
     class Commandes
       include TTY::Option
@@ -34,6 +36,8 @@ module CyberMots
           cmd, args = case ARGV[0]
                       when 'maj'
                         [Maj.new, ARGV[1..]]
+                      when 'liste'
+                        [Liste.new, ARGV[1..]]
                       end
 
           if cmd.nil?
@@ -44,7 +48,8 @@ module CyberMots
                 sections.add_after :description, :commandes, <<~COMMANDES.chomp
 
                   Commandes :
-                    #{Maj.command.first} : #{Maj.desc.first.first}
+                    #{Maj.command.first}   : #{Maj.desc.first.first}
+                    #{Liste.command.first} : #{Liste.desc.first.first}
                 COMMANDES
               end
               print h
