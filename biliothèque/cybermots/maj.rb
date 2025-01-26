@@ -35,13 +35,9 @@ module CyberMots
       # @param [String] dossier le chemin racine où se trouve le dépôt de CyberMots
       # @return [Objet] données sous forme d'objet Ruby
       def génère_json(dossier)
-        données = []
-
-        Dir.glob("#{dossier}/mots/*.md").each do |mot|
-          données << YAML.load_file(mot)
+        Dir.glob("#{dossier}/mots/*.md").map do |mot|
+          YAML.load_file(mot)
         end
-
-        données
       end
     end
   end
